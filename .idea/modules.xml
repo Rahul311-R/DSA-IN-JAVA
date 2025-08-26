@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DSA IN JAVA.iml" filepath="$PROJECT_DIR$/DSA IN JAVA.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Day 1/Day 1.iml" filepath="$PROJECT_DIR$/Day 1/Day 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_1/Day_1.iml" filepath="$PROJECT_DIR$/Day_1/Day_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day_2/Day_2.iml" filepath="$PROJECT_DIR$/Day_2/Day_2.iml" />
     </modules>
   </component>
 </project>
