@@ -19,6 +19,8 @@ public class treemap {
             tree.put(name,age);
         }
 
+
+
         for (var a : tree.entrySet()){
             System.out.println(a.getKey()+"->"+a.getValue());
         }

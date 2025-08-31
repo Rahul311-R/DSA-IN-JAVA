@@ -16,8 +16,10 @@ public class linkedhashset {
             set.add(a);
         }
 
-        for(var t : set){
-            System.out.print(t+" ");
+
+
+        for(var u : set){
+            System.out.print(u+" ");
         }
 
         System.out.println(set);
