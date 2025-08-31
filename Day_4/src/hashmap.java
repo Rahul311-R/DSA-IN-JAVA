@@ -8,11 +8,9 @@ public class hashmap {
 
         HashMap<String,Integer> map = new HashMap<>();
 
-
         System.out.print("Enter the number of entity:");
         int n = s.nextInt();
         s.nextLine();
-
 
         for(int i = 0 ; i<n ;i++){
             System.out.print("Enter the name:");
@@ -24,7 +22,6 @@ public class hashmap {
 
             map.put(name,age);
         }
-
 
         System.out.println(map);
 
@@ -45,7 +42,6 @@ public class hashmap {
         }else{
             System.out.println("Not found");
         }
-
 
         s.nextLine(); // consume leftover newline
         System.out.print("\nDo you want to delete an entry? (y/n): ");
