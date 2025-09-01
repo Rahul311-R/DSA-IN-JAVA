@@ -16,8 +16,6 @@ public class linkedhashset {
             set.add(a);
         }
 
-
-
         for(var u : set){
             System.out.print(u+" ");
         }

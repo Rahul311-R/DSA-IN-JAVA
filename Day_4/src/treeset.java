@@ -17,9 +17,6 @@ public class treeset {
             set.add(a);
         }
 
-
-
-
         System.out.println(set);
 
         for(var u : set){
