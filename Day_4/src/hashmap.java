@@ -58,7 +58,6 @@ public class hashmap {
             }
         }
 
-
         System.out.print("can I prine full hashmap(y/n):");
         char t = s.next().charAt(0);
         if(t=='y'){
