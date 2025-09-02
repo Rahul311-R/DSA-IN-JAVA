@@ -1,10 +1,9 @@
 
-import java.util.HashMap;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+
 public class leetcode_349 {
 
-        public int[] intersection(int[] nums1, int[] nums2) {
+    public static int[] intersection(int[] nums1, int[] nums2) {
             HashMap<Integer, Boolean> map = new HashMap<>();
             List<Integer> result = new ArrayList<>();
 
@@ -25,7 +24,21 @@ public class leetcode_349 {
             }
 
             return res;
+    }
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        int[] arr1 = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr1[i] = s.nextInt();
         }
 
+        int m = s.nextInt();
+        int[] arr2 = new int[m];
+        for (int i = 0; i < m; i++) {
+            arr2[i] = s.nextInt();
+        }
 
+        System.out.println(Arrays.toString(intersection(arr1,arr2)));
+    }
 }
