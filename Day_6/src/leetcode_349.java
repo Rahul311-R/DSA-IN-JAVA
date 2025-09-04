@@ -36,7 +36,9 @@ public class leetcode_349 {
         for(int j = 0;j<m;j++){
             nums2[j]=s.nextInt();
         }
-        System.out.println(intersection(nums1,nums2).toString());
+        for (int t : intersection(nums1,nums2)){
+            System.out.println(t+" ");
+        }
     }
 
 }
