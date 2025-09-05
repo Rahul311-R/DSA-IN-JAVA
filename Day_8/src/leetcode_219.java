@@ -16,7 +16,6 @@ public class leetcode_219 {
                 }
             }
 
-            // Update the index of current number
             map.put(num, i);
         }
 
