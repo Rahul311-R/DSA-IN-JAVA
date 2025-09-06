@@ -12,8 +12,11 @@ public class hashset {
         }
         System.out.print(set);
 
+
+
         set.remove(20);
         System.out.print(set);
+
 
         if(set.contains(30)){
             System.out.println("true");
