@@ -10,6 +10,7 @@ public class hashset {
         for(int i = 0; i<n;i++){
             set.add(s.nextInt());
         }
+
         System.out.print(set);
 
 
