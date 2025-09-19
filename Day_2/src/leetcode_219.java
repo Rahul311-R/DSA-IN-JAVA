@@ -10,9 +10,10 @@ public class leetcode_219 {
                 return true;
             }
             set.add(arr[i]);
+            if (set.size() > k) {
+                set.remove(arr[i - k]);
         }
-        if (set.size() > k) {
-            set.remove(arr[i - k]);
+
         }
         return false;
     }
