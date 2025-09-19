@@ -44,7 +44,7 @@ class LinkedList{
     }
 }
 
-public class main {
+class linked {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
         list.beginning(10);
