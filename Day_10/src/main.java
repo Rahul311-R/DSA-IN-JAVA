@@ -40,6 +40,7 @@ class LinkedList{
             System.out.print(current.data+"->");
             current = current.next;
         }
+        System.out.print("Null");
     }
 }
 
